@@ -7,5 +7,6 @@ public class DemoJVM {
         String myParam = System.getProperty("myParam");
         if (myParam == null) System.out.println("defaultParam");
         else System.out.println(myParam);
+        System.gc();
     }
 }
